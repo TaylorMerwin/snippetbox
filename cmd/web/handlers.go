@@ -17,7 +17,6 @@ func snippetView(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-
 	fmt.Fprintf(w, "Display a specific snippet with ID %d...", id)
 }
 
